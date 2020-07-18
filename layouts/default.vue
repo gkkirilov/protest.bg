@@ -6,7 +6,7 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item is-size-4" href="/">
           Protest.bg
         </a>
 
