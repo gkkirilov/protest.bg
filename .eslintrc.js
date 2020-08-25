@@ -20,7 +20,6 @@ module.exports = {
   // add your custom rules here
   rules: {
     'quotes': ['error', 'single'],
-    'semi': ["error", "always"],
     'no-console': 'off',
     'nuxt/no-cjs-in-config': 'off',
     "vue/html-self-closing": ["error", {

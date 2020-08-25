@@ -6,7 +6,7 @@
 <script>
 export default {
   mounted() {
-    window.location.href = 'https://roamresearch.com/#/app/gkkirilov/graph'
+    window.location.href = 'https://roamresearch.com/#/app/gkkirilov/graph';
   }
-}
+};
 </script>

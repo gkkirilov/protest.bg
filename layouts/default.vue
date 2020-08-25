@@ -1,22 +1,12 @@
 <template>
   <div>
-    <nav
-      class="navbar header has-shadow is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <a class="navbar-item is-size-4" href="/">
-          Protest.bg
-        </a>
-
-        <!-- <div class="navbar-burger">
-          <span />
-          <span />
-          <span />
-        </div> -->
-      </div>
-    </nav>
+    <b-navbar type="dark" variant="primary">
+      <nuxt-link to="/">
+        <b-navbar-brand tag="h1" href="/"
+          ><u class="h3">Protest.bg</u></b-navbar-brand
+        >
+      </nuxt-link>
+    </b-navbar>
 
     <section class="main-content columns">
       <div class="container column">
@@ -42,7 +32,7 @@ export default {
           to: { name: 'inspire' }
         }
       ]
-    }
+    };
   }
-}
+};
 </script>

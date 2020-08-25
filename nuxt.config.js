@@ -19,7 +19,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: '~/components/loading.vue',
   /*
    ** Global CSS
    */
@@ -42,13 +42,13 @@ export default {
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
+    'bootstrap-vue/nuxt',
+    '@nuxt/content',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv',
-    '@nuxt/content'
+    '@nuxtjs/dotenv'
   ],
   /*
    ** Axios module configuration
@@ -64,4 +64,4 @@ export default {
      */
     extend(config, ctx) {}
   }
-}
+};
