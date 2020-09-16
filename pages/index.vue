@@ -25,11 +25,24 @@
     <p>
       * Всяка прилика с действителни лица и събития е случайна.
     </p>
+    <div class="h3 text-center mt-5">
+      Обратно броене до следващите избори.
+      <span>
+        <br />
+        Ти ще чакаш ли да продължават да те крадът?
+      </span>
+    </div>
+    <no-ssr>
+      <flip-countdown deadline="2021-05-01 00:00:00" />
+    </no-ssr>
   </div>
 </template>
 
 <script>
+import FlipCountdown from 'vue2-flip-countdown';
+
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  components: { FlipCountdown }
 };
 </script>
