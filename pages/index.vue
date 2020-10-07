@@ -36,7 +36,7 @@
       <flip-countdown deadline="2021-06-12 00:00:00" />
     </no-ssr>
     <div class="text-center">
-      <img class="img-fluid w-50" src="/TuskAndThePumkin.jpg" alt="" />
+      <img class="img-fluid w-100 w-md-50" src="/TuskAndThePumkin.jpg" alt="" />
     </div>
   </div>
 </template>
