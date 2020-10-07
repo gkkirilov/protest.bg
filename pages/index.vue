@@ -33,8 +33,11 @@
       </span>
     </div>
     <no-ssr>
-      <flip-countdown deadline="2021-05-01 00:00:00" />
+      <flip-countdown deadline="2021-06-12 00:00:00" />
     </no-ssr>
+    <div class="text-center">
+      <img class="img-fluid w-50" src="/TuskAndThePumkin.jpg" alt="" />
+    </div>
   </div>
 </template>
 
