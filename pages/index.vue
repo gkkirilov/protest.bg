@@ -33,10 +33,14 @@
       </span>
     </div>
     <no-ssr>
-      <flip-countdown deadline="2021-06-12 00:00:00" />
+      <flip-countdown deadline="2021-04-04 00:00:00" />
     </no-ssr>
     <div class="text-center">
-      <img class="img-fluid w-100 w-md-50" src="/TuskAndThePumkin.jpg" alt="" />
+      <img
+        class="img-fluid w-100 w-md-50 rounded"
+        src="/TuskAndThePumkin.jpg"
+        alt=""
+      />
     </div>
   </div>
 </template>
@@ -49,3 +53,20 @@ export default {
   components: { FlipCountdown }
 };
 </script>
+<style>
+.flip-card__top {
+  color: white !important;
+}
+.flip-card__bottom {
+  color: white !important;
+}
+.flip-card__top-bottom {
+  color: white !important;
+}
+.flip-card__back-bottom {
+  color: white !important;
+}
+.flip-card__back::before {
+  color: white !important;
+}
+</style>
