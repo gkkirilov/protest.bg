@@ -5,43 +5,46 @@
         Ресурси
       </div>
       <ol class="h4">
-        <li>
+        <!-- <li>
           <a href="https://roamresearch.com/#/app/gkkirilov/graph">
             <u>Мрежата от политици</u>
             <span class="text-dark">*</span>
           </a>
-        </li>
-        <li>
+          <p>
+            * Всяка прилика с действителни лица и събития е случайна.
+          </p>
+        </li> -->
+        <li class="mb-2">
           <nuxt-link to="/konstitucia">
             <u>КОНСТИТУЦИЯ НА РЕПУБЛИКА БЪЛГАРИЯ</u>
-            <!-- <b-button type="is-primary is-size-3-tablet"
-              >
-              </b-button
-            > -->
           </nuxt-link>
+        </li>
+        <li>
+          Агрегатор на предизборни обещания:
+          <u>
+            <a href="https://www.reddit.com/r/te_obeshtaha/">Те Обещаха!</a>
+          </u>
         </li>
       </ol>
     </section>
-    <p>
-      * Всяка прилика с действителни лица и събития е случайна.
-    </p>
     <div class="h3 text-center mt-5">
       Обратно броене до следващите избори.
       <span>
         <br />
-        Ти ще чакаш ли да продължават да те крадът?
       </span>
     </div>
-    <no-ssr>
-      <flip-countdown deadline="2021-04-04 00:00:00" />
-    </no-ssr>
-    <div class="text-center">
+    <div class="mb-4">
+      <no-ssr>
+        <flip-countdown deadline="2021-04-04 00:00:00" />
+      </no-ssr>
+    </div>
+    <!-- <div class="text-center">
       <img
         class="img-fluid w-100 w-md-50 rounded"
         src="/TuskAndThePumkin.jpg"
         alt=""
       />
-    </div>
+    </div> -->
   </div>
 </template>
 
