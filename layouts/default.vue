@@ -3,7 +3,7 @@
     <b-navbar type="dark" variant="primary">
       <nuxt-link to="/">
         <b-navbar-brand tag="h1" href="/"
-          ><u class="h3">Protest.bg</u></b-navbar-brand
+          ><u class="h3">Протест.бг</u></b-navbar-brand
         >
       </nuxt-link>
     </b-navbar>

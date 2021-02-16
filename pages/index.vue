@@ -34,9 +34,9 @@
       </span>
     </div>
     <div class="mb-4">
-      <no-ssr>
+      <client-only>
         <flip-countdown deadline="2021-04-04 00:00:00" />
-      </no-ssr>
+      </client-only>
     </div>
     <!-- <div class="text-center">
       <img
