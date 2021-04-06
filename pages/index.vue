@@ -1,10 +1,8 @@
 <template>
   <div>
-    <section class="section has-text-centered">
-      <div class="h2">
-        Ресурси
-      </div>
-      <ol class="h4">
+    <section class="section has-text-centered text-center">
+      <!-- <div class="h2">Ресурси</div> -->
+      <div class="h4">
         <!-- <li>
           <a href="https://roamresearch.com/#/app/gkkirilov/graph">
             <u>Мрежата от политици</u>
@@ -14,46 +12,28 @@
             * Всяка прилика с действителни лица и събития е случайна.
           </p>
         </li> -->
-        <li class="mb-2">
+        <div class="my-2">
           <nuxt-link to="/konstitucia">
             <u>КОНСТИТУЦИЯ НА РЕПУБЛИКА БЪЛГАРИЯ</u>
           </nuxt-link>
-        </li>
-        <li>
-          Агрегатор на предизборни обещания:
-          <u>
-            <a href="https://www.reddit.com/r/te_obeshtaha/">Те Обещаха!</a>
-          </u>
-        </li>
-      </ol>
+        </div>
+      </div>
     </section>
-    <div class="h3 text-center mt-5">
-      Обратно броене до следващите избори.
-      <span>
-        <br />
-      </span>
-    </div>
-    <div class="mb-4">
-      <client-only>
-        <flip-countdown deadline="2021-04-04 00:00:00" />
-      </client-only>
-    </div>
-    <!-- <div class="text-center">
+    <div class="h3 text-center mt-4">Браво българи заедно успяхме!</div>
+
+    <div class="text-center">
       <img
-        class="img-fluid w-100 w-md-50 rounded"
-        src="/TuskAndThePumkin.jpg"
+        class="img-fluid w-100 w-md-50 rounded shadow-lg mt-3"
+        src="/Flag_of_Bulgaria.svg"
         alt=""
       />
-    </div> -->
+    </div>
   </div>
 </template>
 
 <script>
-import FlipCountdown from 'vue2-flip-countdown';
-
 export default {
-  name: 'HomePage',
-  components: { FlipCountdown }
+  name: 'HomePage'
 };
 </script>
 <style>
