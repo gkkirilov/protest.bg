@@ -19,9 +19,20 @@
         </div>
       </div>
     </section>
-    <div class="h3 text-center mt-4">Браво българи заедно успяхме!</div>
+    <div class="mb-4">
+      <div class="h3 text-center mt-5">
+        Обратно броене до следващите избори.
+        <span>
+          <br />
+        </span>
+      </div>
+      <client-only>
+        <flip-countdown deadline="2021-07-11 00:00:00" />
+      </client-only>
+    </div>
+    <!-- <div class="h3 text-center mt-4">Браво българи заедно успяхме!</div> -->
 
-    <div class="text-center">
+    <div class="text-center col-md-6 mx-auto">
       <img
         class="img-fluid w-100 w-md-50 rounded shadow-lg mt-3"
         src="/Flag_of_Bulgaria.svg"
@@ -32,8 +43,11 @@
 </template>
 
 <script>
+import FlipCountdown from 'vue2-flip-countdown';
+
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  components: { FlipCountdown }
 };
 </script>
 <style>
