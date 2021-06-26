@@ -41,7 +41,6 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://buefy.github.io/#/documentation
     'bootstrap-vue/nuxt',
     '@nuxt/content',
     // Doc: https://axios.nuxtjs.org/usage
