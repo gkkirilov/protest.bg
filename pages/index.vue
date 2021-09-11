@@ -22,12 +22,15 @@
     <div class="mb-4">
       <div class="h3 text-center mt-5">
         Обратно броене до следващите избори.
+        <div>
+          14 ноември 2021г.
+        </div>
         <span>
           <br />
         </span>
       </div>
       <client-only>
-        <flip-countdown deadline="2021-07-11 00:00:00" />
+        <flip-countdown deadline="2021-11-14 00:00:00" />
       </client-only>
     </div>
     <!-- <div class="h3 text-center mt-4">Браво българи заедно успяхме!</div> -->
