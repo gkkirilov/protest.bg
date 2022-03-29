@@ -19,6 +19,8 @@
         </div>
       </div>
     </section>
+    <iframe src="http://www.strawpoll.me/embed_1/46009045" style="width:680px;height:384px;border:0;">Зарежда...</iframe>
+    <!--
     <div class="mb-4">
       <div class="h3 text-center mt-5">
         Обратно броене до следващите избори.
@@ -33,6 +35,7 @@
         <flip-countdown deadline="2021-11-14 00:00:00" />
       </client-only>
     </div>
+    -->
     <!-- <div class="h3 text-center mt-4">Браво българи заедно успяхме!</div> -->
 
     <div class="text-center col-md-6 mx-auto">
