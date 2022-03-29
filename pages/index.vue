@@ -19,7 +19,7 @@
         </div>
       </div>
     </section>
-    <iframe src="http://www.strawpoll.me/embed_1/46009045" style="width:680px;height:384px;border:0;">Зарежда...</iframe>
+    <iframe src="https://www.strawpoll.me/embed_1/46009045" style="width:680px;height:384px;border:0;">Зарежда...</iframe>
     <!--
     <div class="mb-4">
       <div class="h3 text-center mt-5">
