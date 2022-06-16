@@ -19,9 +19,6 @@
         </div>
       </div>
     </section>
-    <div class="text-center d-flex justify-content-center">
-      <iframe src="https://www.strawpoll.me/embed_1/46009045" style="width:680px;height:384px;border:0;">Зарежда...</iframe>
-    </div>
     <!--
     <div class="mb-4">
       <div class="h3 text-center mt-5">
@@ -39,7 +36,13 @@
     </div>
     -->
     <!-- <div class="h3 text-center mt-4">Браво българи заедно успяхме!</div> -->
-
+    <div class="text-center col-md-6 mx-auto">
+      <img
+        class="img-fluid w-100 w-md-50 rounded shadow-lg mt-3"
+        src="/novatakoaliciq.png"
+        alt=""
+      />
+    </div>
     <div class="text-center col-md-6 mx-auto">
       <img
         class="img-fluid w-100 w-md-50 rounded shadow-lg mt-3"
