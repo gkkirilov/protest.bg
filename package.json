@@ -17,7 +17,7 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.2",
     "bootstrap-vue": "^2.17.1",
-    "nuxt": "^2.14.5",
+    "nuxt": "^3.4.3",
     "nuxt-buefy": "^0.3.2",
     "vue2-flip-countdown": "^0.11.0"
   },
